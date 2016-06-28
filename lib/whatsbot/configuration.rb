@@ -6,7 +6,7 @@ class Whatsbot::Configuration
   attr_accessor :uri_api, :driver, :browser_profile, :username
 
   def self.configure
-    raise 'A configuration block must be passed'
+    raise 'A configuration block must be passed' unless block_given?
     @current = self.new
     yield(@current)
     @current

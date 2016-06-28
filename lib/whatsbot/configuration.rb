@@ -1,5 +1,3 @@
-require 'selenium-webdriver'
-
 class Whatsbot::Configuration
   class << self
     attr_reader :current

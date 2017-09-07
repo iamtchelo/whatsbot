@@ -4,7 +4,8 @@
   "description": "A new way to spy your crushes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && node index.js",
+    "build": "node node_modules/.bin/babel src/app.js --out-file index.js"
   },
   "repository": {
     "type": "git",

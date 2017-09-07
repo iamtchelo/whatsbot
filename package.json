@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/marcelodeveloper/whatsbot#readme",
   "dependencies": {
+    "rxjs": "^5.4.3",
     "selenium-webdriver": "^3.5.0"
   },
   "devDependencies": {

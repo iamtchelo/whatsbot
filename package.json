@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/marcelodeveloper/whatsbot/issues"
   },
-  "homepage": "https://github.com/marcelodeveloper/whatsbot#readme"
+  "homepage": "https://github.com/marcelodeveloper/whatsbot#readme",
+  "dependencies": {
+    "selenium-webdriver": "^3.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
 }
